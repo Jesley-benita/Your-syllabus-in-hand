@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">my youtube</string>
+    <string name="mobile_number">mobile_number</string>
+    <string name="password">password</string>
+    <string name="name">name</string>
+    <string name="Name">Name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="Password">Password</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="Clean_India">Clean India</string>
+    <string name="email_id">email id</string>
+    <string name="profile">profile</string>
+    <string name="about_me">About me</string>
+    <string name="Profile">profile</string>
+    <string name="Credits">credits</string>
+    <string name="Settings">settings</string>
+    <string name="preference_file_name">preference_file_name</string>
+    <string name="about_app">abaout app</string>
+    <string name="clean_india">CLEAN INDIA</string>
+    <string name="sign_out">Sign out</string>
+    <string name="open_drawer" />
+    <string name="close_drawer" />
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profilee">Profile</string>
+
+</resources>

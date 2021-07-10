@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".credits_activity">
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+   <TextView
+       android:id="@+id/topic"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Data Structure"
+       android:textSize="23dp"
+       android:layout_marginLeft="100dp"/>
+   <Button
+       android:id="@+id/ds1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="What is Data Structures and What is an Algorithm ?
+       Why do we need Data Structures and Algorithms ?"
+       android:layout_below="@+id/topic"
+       android:textColor="#98AFC7"
+       />
+
+      <Button
+          android:id="@+id/ds2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+
+          android:text="What is Abstract Data Types in Data Structures | ADT in DS"
+          android:layout_below="@+id/ds1"
+          android:textColor="#646D7E"
+          />
+      <Button
+          android:id="@+id/ds3"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="What is Stack Data Structure ? | C++ Program to Implement Stack DS Operations"
+          android:layout_below="@+id/ds2"
+          android:textColor="#6D7B8D"
+          />
+      <Button
+          android:id="@+id/ds4"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="What is Queue Data Structure ? | Queue Operations and Working | C++ Program to Implement Queue Operations"
+          android:layout_below="@+id/ds3"
+          android:textColor="#646D7E"
+          />
+      <Button
+          android:id="@+id/ds5"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Circular Queue Data Structure | C++ Program to Implement Circular Queue Operations"
+          android:layout_below="@+id/ds4"
+          android:textColor="#95B9C7"
+          />
+      <TextView
+          android:id="@+id/topic2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Searching"
+          android:textSize="23dp"
+          android:layout_below="@+id/ds5"/>
+      <Button
+          android:id="@+id/ds6"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text=" Linear Search Algorithm with C++ Code | Data Structures and Algorithms"
+          android:layout_below="@+id/topic2"
+          android:textColor="#48CCCD"
+          />
+      <Button
+          android:id="@+id/ds7"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Binary Search Algorithm with C++ Code | Data Structures and Algorithms"
+          android:layout_below="@+id/ds6"
+          android:textColor="#357EC7"
+          />
+      <TextView
+          android:id="@+id/topic3"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Sorting Algorithms"
+          android:textSize="23dp"
+          android:layout_below="@+id/ds7"/>
+      <Button
+          android:id="@+id/ds8"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Merge Sort Algorithm (with Example) with C++ Code | Sorting Algorithms | Data Structures and Algorithms"
+          android:layout_below="@+id/topic3"
+          android:textColor="#9AFEFF"
+          />
+      <Button
+          android:id="@+id/ds9"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Quick Sort Algorithm (with Example) with C++ Code | Sorting Algorithms | Data Structures and Algorithms"
+          android:layout_below="@+id/ds8"
+          android:textColor="#77BFC7"
+          />
+      <Button
+          android:id="@+id/ds10"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Counting Sort Algorithm with C++ Code | Sorting Algorithms | Data Structures and Algorithms"
+          android:layout_below="@+id/ds9"
+          android:textColor="#3B9C9C"
+          />
+      <Button
+          android:id="@+id/ds11"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Radix Sort Algorithm with C++ Code | Sorting Algorithms | Data Structures and Algorithms"
+          android:layout_below="@+id/ds10"
+          android:textColor="#3B9C9C"
+          />
+      <Button
+          android:id="@+id/ds12"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Shell Sort Algorithm with C++ Code | Sorting Algorithms | Data Structures and Algorithms"
+          android:layout_below="@+id/ds11"
+          android:textColor="#307D7E"
+          />
+
+
+
+   </RelativeLayout>
+</ScrollView>

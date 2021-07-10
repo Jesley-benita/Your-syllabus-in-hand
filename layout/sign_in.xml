@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/regtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="46dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background" />
+
+        <Button
+            android:id="@+id/regloginbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pass"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/background"
+            android:padding="2dp"
+            android:text="Login?"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/regname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:padding="13dp"
+            android:hint="@string/Name"
+            android:textSize="25dp"
+            android:drawableStart="@drawable/ic_name"
+            android:drawableLeft="@drawable/ic_name"
+            android:layout_marginTop="60dp"/>
+
+        <EditText
+            android:id="@+id/regmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:padding="13dp"
+            android:hint="Email id"
+            android:textSize="25dp"
+            android:layout_marginTop="12dp"
+
+            android:drawableStart="@drawable/ic_mail"
+            android:drawableLeft="@drawable/ic_phonenum"/>
+
+        <EditText
+            android:id="@+id/regnum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:padding="13dp"
+            android:hint="@string/phone_number"
+            android:textSize="25dp"
+            android:inputType="number"
+            android:maxLength="10"
+            android:layout_marginTop="12dp"
+
+            android:drawableLeft="@drawable/ic_phonenum"/>
+
+       <EditText
+            android:id="@+id/regpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:padding="13dp"
+            android:hint="@string/Password"
+            android:textSize="25dp"
+            android:inputType="textPassword"
+            android:layout_marginTop="12dp"
+
+            android:drawableStart="@drawable/ic_password"
+            android:drawableLeft="@drawable/ic_password" />
+
+       <EditText
+            android:id="@+id/regconfpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:padding="13dp"
+            android:hint="Confirm Password"
+            android:textSize="25dp"
+            android:inputType="textPassword"
+            android:layout_marginTop="12dp"
+
+            android:drawableLeft="@drawable/ic_password" />
+       <Button
+             android:id="@+id/regregister"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="34dp"
+             android:layout_marginLeft="150dp"
+             android:layout_below="@+id/pass"
+             android:layout_marginTop="40dp"
+             android:padding="2dp"
+             android:background="@drawable/background"
+             android:text="Register"
+             android:textStyle="bold"
+             android:textSize="23dp"
+        />
+
+    </LinearLayout>
+</ScrollView>
